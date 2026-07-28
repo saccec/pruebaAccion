@@ -17,6 +17,11 @@ app.get('/listar', (req, res) => {
   
   res.send('¡Hola! El servidor web en Node.js está listando correctamente.');
 });
+app.get('/revisar', (req, res) => {
+  
+  res.send('¡Hola! El servidor web en Node.js está revisando correctamente.');
+});
+
 
 // Iniciar el servidor
 app.listen(PORT, () => {
