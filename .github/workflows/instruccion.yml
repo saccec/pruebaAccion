@@ -1,0 +1,30 @@
+name: Mi segundo Pipeline
+on: [push]
+
+jobs:
+  preparar-entorno:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # Paso A: Traer el codigo del repositorio
+      
+      - name: Descargar el codigo
+
+        uses: actions/checkout@v4
+
+      # Paso B: Intalador Node.js en la nube
+      
+      - name: Instalar Node.js en la nube
+
+        uses: actions/setup-node@v4
+
+        with:
+
+          node-version:'20'
+
+      # Paso C: Intalar paquetes
+      
+      - name: Instalar dependencias
+
+        run: npm ci

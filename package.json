@@ -1,0 +1,32 @@
+{
+  "name": "pruebaaccion",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts":{
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+     "express":"^4.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saccec/pruebaAccion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saccec/pruebaAccion/issues"
+  },
+  "homepage": "https://github.com/saccec/pruebaAccion#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
